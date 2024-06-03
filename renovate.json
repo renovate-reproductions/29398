@@ -3,6 +3,10 @@
   "extends": [
     "config:recommended"
   ],
-  "osvVulnerabilityAlerts": true,
-  "dependencyDashboardOSVVulnerabilitySummary": "all"
+  "packageRules": [
+    {
+      "matchPackageNames":  ["example.com/someimage"],
+      "customChangelogUrl": "https://example.com"
+    }
+  ]
 }
