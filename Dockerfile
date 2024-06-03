@@ -1,2 +1,2 @@
-FROM example.com/someimage:latest
+FROM debian:11
 
