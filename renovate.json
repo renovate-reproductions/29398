@@ -6,7 +6,7 @@
   "packageRules": [
     {
       "matchPackageNames":  ["debian"],
-      "customChangelogUrl": "https://example.com"
+      "changelogUrl": "https://example.com"
     }
   ]
 }
